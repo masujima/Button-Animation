@@ -21,7 +21,7 @@ class AnimatableButton: UIButton {
 		
 		switch tintAdjustmentMode {
 		case .dimmed:
-			backgroundColor = .systemPurple
+			backgroundColor = .systemGray
 		default:
 			backgroundColor = .systemBlue
 		}
